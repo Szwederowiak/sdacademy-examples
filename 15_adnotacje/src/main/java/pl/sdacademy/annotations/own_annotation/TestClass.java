@@ -6,12 +6,12 @@ public class TestClass {
 
   @BenchmarkTime
   void test1 () throws InterruptedException {
-    Thread.sleep(1500);
+    System.out.println("asdasdASd asD Aasdasd asd as das dasd asdasd asda sda sdasd as dasd ");
   }
 
   @BenchmarkTime
   void test2 () throws InterruptedException {
-    Thread.sleep(2000);
+    System.out.println("qwe");
   }
 
   void test3 () throws InterruptedException {
